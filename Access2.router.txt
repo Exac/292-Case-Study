@@ -1,0 +1,4 @@
+-Access2 router
+en
+conf t
+hostname Access2

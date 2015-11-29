@@ -1,0 +1,4 @@
+-D1 Switch
+en
+conf t
+hostname D1

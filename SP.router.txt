@@ -1,0 +1,4 @@
+-SP Router
+en
+conf t
+hostname SP

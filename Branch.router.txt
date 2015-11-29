@@ -1,0 +1,4 @@
+- Branch router
+en
+conf term
+hostname Branch

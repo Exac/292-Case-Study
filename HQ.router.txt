@@ -1,0 +1,4 @@
+-HQ router
+en
+conf t
+hostname HQ
