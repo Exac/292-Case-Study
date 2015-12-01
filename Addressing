@@ -1,0 +1,36 @@
+Vlans						
+Vlan 2	general		    172.16.64.0	/24		
+Vlan 3	general		    172.16.65.0	/24		
+Vlan 4			          172.16.66.0	/24		
+Vlan 5			          172.16.64.1	/24		
+Vlan 6			          172.16.65.1	/24		
+Vlan 7			          172.16.66.1	/24		
+Vlan 8			          172.16.64.2	/24		
+Vlan 99	Management		172.16.65.2	/24		
+						
+Branch						
+subnet 1	physical		172.16.72.0	/25	Vlan 2	Student
+subnet 2	loopback		172.16.72.128	/25	Vlan 3	Faculty
+subnet 3		          172.16.73.0	/25	Vlan 4	
+subnet 4			        172.16.73.128	/25	Vlan 5	
+subnet 5			        172.16.74.0	/25	Vlan 6	
+subnet 6			        172.16.74.128	/25	Vlan 7	
+subnet 7			        172.16.75.0	/25	Vlan 8	
+subnet 8	loopback		172.16.75.128	/25	Vlan 99	Management
+						
+wireless pool			172.16.79.0	/25		
+						
+p2p links						
+HQ - Access			                172.16.79.128	/30		
+HQ - SP			                    172.16.79.132	/30		
+SP - Branch PPP			            172.16.79.136	/30		
+Access - Branch frame relay			172.16.79.140	/30		
+HQ - Access 2			              172.16.79.144	/30		
+Access 2 - Linksys Wireless Etherlink			172.16.79.148	/30		
+						
+						
+Fixed address' 	use 10 - 19					
+DHCP 	don't use 0 - 19					
+						
+DNS server			192.168.17.2			
+domain name			ufv.kom			
